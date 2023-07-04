@@ -1,5 +1,3 @@
-
-
 import os
 import sys
 import shutil
@@ -28,7 +26,6 @@ class FolderSynchronizer:
 
     def sync_directories(self, source_dir, replica_dir):
         '''
-
         :param source_dir: Source folder path
         :param replica_dir: Destination Folder Path
         :return: None. Adds/Updates files/Directories from source folders which are not present/updated to Replica folder
@@ -50,7 +47,6 @@ class FolderSynchronizer:
 
     def remove_extra_items(self, source_dir, replica_dir):
         '''
-
         :param source_dir: Source Folder path
         :param replica_dir: Replica Folder path
         :return: None. Deletes files/Directories in Replica folder which are not available on Source Folder
